@@ -63,4 +63,3 @@ A self-serve returns portal + merchant dashboard with workflow validation, audit
 ## Contact
 - Email: **royceluo1216@gmail.com**
 - LinkedIn: **royce-luo-uoft**
-- GitHub: **@royceluo1216**
