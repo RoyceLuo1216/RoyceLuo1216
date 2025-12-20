@@ -1,65 +1,99 @@
-# Royce Luo
+# 👋 Hey, I’m Royce Luo
 
-Toronto, Canada • UofT Computer & Data Science (Co-op, May 2027)  
-Email: royceluo1216@gmail.com • GitHub: @royceluo1216 • LinkedIn: royce-luo-uoft
+🏃‍♂️ Running enthusiast (newly unlocked) • 💻 Software & Data @ UofT • ☕ Powered by curiosity and an unhealthy amount of caffiene
+📍 Toronto, Canada | 🎓 Computer & Data Science (Co-op, May 2027)
 
-## About me
-I’m a Computer & Data Science student at the University of Toronto (GPA 3.93/4.0) who likes building end-to-end systems that feel “production real”: clean APIs, async workflows, measurable performance wins, and reliable deployments. I’m especially interested in commerce infrastructure, applied ML in products, and platform engineering.
-
-- Current: Full Stack Developer @ Scotiabank GBM (Trade Floor Tech)
-- Also: Software Developer @ Korotu • You’re Next Career Network
-- Building: **ReturnFlow**, a Rails returns & exchanges platform (Hotwire + multi-tenant + Sidekiq + webhooks)
+> Recently got into running — turns out it’s great practice for facing problems head-on.  
+> (Also great for debugging… eventually. 🥲)
 
 ---
 
-## What I’m working on
-### ReturnFlow — Returns & Exchanges Platform (Rails)
-A self-serve returns portal + merchant dashboard with workflow validation, audit logging, async processing, and webhook integrations.
+## 🧠 About me
+
+I’m a Computer & Data Science student at the University of Toronto. I'm always trying to learn something new to help me approach problems with a new lens. 
+
+I enjoy:
+- Taking ambiguous problems and turning them into simple systems
+- Owning projects end-to-end (design → code → deploy → iterate)
+- Learning by building (and occasionally breaking things responsibly)
+
+Currently:
+- 💼 **Full Stack Developer @ Scotiabank (Global Banking & Markets)**
+- 🛠 Building **ReturnFlow**, a Rails returns & exchanges platform
+- 🏃‍♂️ Running (mostly from bugs, sometimes from my responsibilities)
+
+---
+
+## 🚧 What I’m building right now
+
+### 🧾 ReturnFlow — Returns & Exchanges Platform (Rails)
+A self-serve returns portal + merchant dashboard designed like a real commerce platform.
+
+**Why I built it:**  
+Because returns are messy, async, stateful, and full of edge cases — aka a great systems problem.
 
 **Highlights**
-- Multi-tenant Rails 7 app (store-scoped data model)
-- Validated state transitions (requested → approved → received → refunded/exchanged)
-- Append-only event log for traceability/auditability
-- Sidekiq + Redis for async jobs (notifications + webhook delivery)
-- Webhooks with HMAC signatures and retry/backoff semantics
-- Analytics: return reasons + SKU hotspots
+- 🏬 Multi-tenant Rails 7 app (store-scoped data model)
+- 🔁 Validated state transitions (requested → approved → received → refunded/exchanged)
+- 🧾 Append-only event log for traceability & auditability
+- ⚙️ Sidekiq + Redis for async jobs (notifications + webhooks)
+- 🔐 Webhooks with HMAC signatures + retry/backoff
+- 📊 Analytics on return reasons & SKU hotspots
 
-> Repo: (link this once created) `https://github.com/royceluo1216/returnflow`
+> Think Shopify returns, but built in a hackathon-style sprint (with fewer meetings).
+
+📦 Repo: *coming soon* (currently sprinting 🏃‍♂️)
 
 ---
 
-## Experience highlights
-### Scotiabank — Global Banking & Markets (Full Stack Developer)
-- Built an LLM-backed email triage pipeline with RAG + evaluation + safe routing, cutting manual triage by **80%**
-- Owned an approvals platform end-to-end (APIs, data models, validation) reducing multi-team processing from **months → days**
-- Built a cosine similarity REST service with caching + load testing to validate **10x scaling**
+## 💼 Experience highlights
 
-### Korotu (Software Developer)
-- Reduced AWS containerization costs by **40%** using multi-stage builds, right-sized compute, and worker consolidation
+### 🏦 Scotiabank — Global Banking & Markets (Full Stack Developer)
+- Cut manual email triage by **80%** by building an LLM-backed classification pipeline (RAG + evaluation + safe fallbacks)
+- Reduced multi-team processing timelines from **months → days** by owning a mission-critical approvals platform end-to-end
+- Built a cosine similarity REST service with caching + load testing to validate **10× scaling**
+
+### 🌍 Korotu (Software Developer)
+- Reduced AWS containerization costs by **40%** via multi-stage builds, right-sized compute, and worker consolidation
 - Built a geospatial scenario builder UI (React/TS) for ML-driven planning with OpenAI + Ollama
-- Reduced Django + Postgres API latency by **35%** via profiling, ORM optimization, and indexing
+- Reduced Django + PostgreSQL API latency by **35%** via profiling, ORM optimization, and indexing
 
-### You’re Next Career Network (Software Developer)
+### 🎟 You’re Next Career Network (Software Developer)
 - Saved **$12,000** by in-housing an event signup app serving **9,300+ users**
 - Cut Firebase reads by **30%** via caching + query restructuring
-- Reduced check-in time by **50%** by automating verification with SendGrid + QR codes
+- Reduced check-in time by **50%** using SendGrid + QR-code automation
 
 ---
 
-## Selected projects
-- **Real-Time Market Simulation & Prediction Engine** (PyTorch): built a real-time FX simulator; sped ingestion **6x** using Polars vs pandas
-- **Hurricane Preparedness Aid**: GenAI RAG over emergency documents + real-time tracking maps; Dockerized deployments
+## 🧪 Selected projects
+
+- **📈 Real-Time Market Simulation & Prediction Engine**  
+  Built a real-time FX market simulator with PyTorch; sped ingestion **6×** using Polars over pandas.
+
+- **🌪 Hurricane Preparedness Aid**  
+  GenAI RAG over emergency documents + real-time tracking maps; Dockerized for reproducible deployment.
 
 ---
 
-## Tech I use
-**Languages:** Python, TypeScript/JavaScript, Java, C#, SQL, Ruby (learning)  
-**Frameworks:** Rails, React, Django, Flask, PyTorch  
-**Infra:** AWS, Docker, Kubernetes, Redis, Sidekiq, CI/CD, Postgres  
-**Data/ML:** Transformers, RAG systems, Polars, Pandas, NumPy
+## 🧰 Tech stack
+
+**Languages**  
+Python • TypeScript/JavaScript • Java • C# • SQL • Ruby (learning)
+
+**Frameworks & Tools**  
+Rails • React • Django • Flask • PyTorch • Sidekiq • Redis
+
+**Infrastructure**  
+AWS • Docker • Kubernetes • CI/CD • PostgreSQL
+
+**Data / ML**  
+Transformers • RAG systems • Polars • Pandas • NumPy
 
 ---
 
-## Contact
-- Email: **royceluo1216@gmail.com**
-- LinkedIn: **royce-luo-uoft**
+## 🏃‍♂️ Fun facts (important section)
+- Recently started running — turns out consistency beats motivation (same applies to debugging)
+- I like systems that are boring in production (the highest compliment)
+- Favorite performance metric: *“this used to take forever”*
+
+---
