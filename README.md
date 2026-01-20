@@ -81,10 +81,10 @@ Because returns are messy, async, stateful, and full of edge cases — aka a gre
 Python • TypeScript/JavaScript • Java • C# • SQL • Ruby (learning)
 
 **Frameworks & Tools**  
-Rails • React • Django • Flask • PyTorch • Sidekiq • Redis
+Rails • React • Django • Flask • PyTorch • Redis
 
 **Infrastructure**  
-AWS • Docker • Kubernetes • CI/CD • PostgreSQL
+AWS • Docker • CI/CD • PostgreSQL
 
 **Data / ML**  
 Transformers • RAG systems • Polars • Pandas • NumPy
